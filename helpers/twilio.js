@@ -12,9 +12,9 @@ var twilio = {
 		    body: "Tu código de verificación para tu registro en Pago Ágil es " + code,
 		}, function(err, message) { 
 			if (err) {
-				res.json({ "result": "error" });
+				return res.send(err);
 			}
-			res.json({ "result": "success" });
+			return res.json({ "result": "success" });
 		});
 	}
 };
