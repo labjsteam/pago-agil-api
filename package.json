@@ -1,0 +1,21 @@
+{
+  "name": "pago-agil-api",
+  "version": "1.0.0",
+  "description": "Pago Agil API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pago-facil",
+    "api",
+    "express"
+  ],
+  "author": "LabJS Team <thebest@labjsteam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "twilio": "^3.4.0"
+  }
+}
